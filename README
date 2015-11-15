@@ -1,0 +1,65 @@
+ 
+ _   _       ____  _     
+| \ | | ___ |  _ \( )___ 
+|  \| |/ _ \| |_) |// __|
+| |\  | (_) |  __/  \__ \
+|_| \_|\___/|_|     |___/
+                         
+ __  __ _            ____                                   
+|  \/  (_)_ __   ___/ ___|_      _____  ___ _ __   ___ _ __ 
+| |\/| | | '_ \ / _ \___ \ \ /\ / / _ \/ _ \ '_ \ / _ \ '__|
+| |  | | | | | |  __/___) \ V  V /  __/  __/ |_) |  __/ |   
+|_|  |_|_|_| |_|\___|____/ \_/\_/ \___|\___| .__/ \___|_|   
+                                           |_|              
+v2.0
+
+
+Game:      NoP's Minesweeper v2.0
+Files:     zxmines2-loading-screen (the full game)
+           zxmines2-no-loading-screen (the same game, 
+           but without the loading screen).
+Language:  C with 2 ASM routines (Border and Beep)
+Author:    Santiago Romero AKA NoP/Compiler Software
+LoadSCR:   Matriax 
+Email:     sromero at escomposlinux dot org
+Date:      24-January-2003
+Web:       http://www.speccy.org/compiler/
+Usage:
+
+ Press the '1', '2' or '3' keys to start a new Easy,
+ Normal and Hard game (determined by board size and
+ density/number of mines). '4' key changes language
+ between Spanish and English.
+
+ You can use O, P, Q, A for movement and SPACE to
+ open a cell. You can also use the Sinclair Joystick
+ 1 (6, 7, 8, 9 and 0).
+
+ The game rules are easy: just open all the board
+ cells except for those containing mines. Each cell
+ will show you if there is a mine near it's 8
+ neightbours with a number (i.e. 1 says you that
+ one of it's 8 neightbours is a mine). If you open
+ all the cells except for the mines, you win. You
+ lose in case of discovering a mine.
+ 
+Comments: 
+
+ I created this game in just 3-4 programming hours
+ from scratch just to see how much fast it was respect
+ to BASIC version (v1.0). Quite fast on calcs, and
+ only a bit faster drawing on the speed, but I feed
+ that this version is more playable.
+
+ It lacks for good sound, just a pair of beeps...
+
+ Thanks a lot to Z88DK's developers, specially Dominic
+ Morris, who helped me solving very fast 2 bugs in
+ z88dk v1.50 :-)
+
+ Thanks also to Matriax for the Loading Screen, and
+ to tbrazil for the help building the final tapfile.
+ 
+ CU!
+ 
+ 
